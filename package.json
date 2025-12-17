@@ -1,0 +1,25 @@
+{
+  "name": "form-sql-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pelle-shurda/form-SQL-Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pelle-shurda/form-SQL-Node.js/issues"
+  },
+  "homepage": "https://github.com/pelle-shurda/form-SQL-Node.js#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.16.0"
+  }
+}
