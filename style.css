@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: light;
+}
+
+.chatbox {
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+
+.chatbox input {
+    border: 2px solid  rgb(26, 26, 26);
+    border-radius: 20px;
+    padding: 10px 50px 10px 10px;
+    width: 85%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.chatbox button {
+    position: absolute;
+    top: 50%;
+    right: -3px;
+    transform: translateY(-50%);
+    background-color: rgb(26, 26, 26);
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
